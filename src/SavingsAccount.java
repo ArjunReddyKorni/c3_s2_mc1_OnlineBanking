@@ -6,6 +6,8 @@ public class SavingsAccount {
     String holdersName;
     double accountBalance;
     String status;
+    int age;
+    String typeOfTheAccount;
 
     SavingsAccount(String accountNumber,String holdersName,double accountBalance, String status){
         this.accountNumber = accountNumber;
